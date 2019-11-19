@@ -60,3 +60,13 @@ header img {
 .features .section {
   padding-bottom: 64px;
 }
+
+.members {
+  background: #f2f2f2;
+}
+
+.members > h1 {
+  text-align: center;
+  padding: 64px 0;
+  font-weight: normal;
+}
