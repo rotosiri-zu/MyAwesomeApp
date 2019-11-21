@@ -45,7 +45,7 @@ header img {
 
 .features > h1 {
   text-align: center;
-  padding: 64px 0;
+  padding: 64px;
   font-weight: normal;
 }
 
@@ -57,7 +57,7 @@ header img {
   line-height: 1.8;
 }
 
-.features .section {
+.features section {
   padding-bottom: 64px;
 }
 
@@ -67,7 +67,7 @@ header img {
 
 .members > h1 {
   text-align: center;
-  padding: 64px 0;
+  padding: 64px;
   font-weight: normal;
 }
 
@@ -139,7 +139,7 @@ footer {
     justify-content: space-between;
   }
 
-  .features .section:nth-child(even) {
+  .features section:nth-child(even) {
     flex-direction: row-reverse;
   }
 
@@ -149,5 +149,16 @@ footer {
 
   .features .info {
     width: calc(50% - 32px);
+  }
+
+  .members ul {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .members li {
+    width: 250px;
   }
 }
